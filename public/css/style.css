@@ -1,0 +1,228 @@
+/* para index y main.css */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header_container {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;  /* Reducir el padding */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.header_container h1 {
+    margin-top: 20px;
+    font-size: 3rem;  /* Ajustar el tamaño del texto */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;  /* Reducir el padding */
+}
+
+nav img {
+    height: 60px;   /* Ajustar la altura del logo */
+}
+
+.menu_head ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.menu_head li{
+    font-size: 30px;
+    color: #f88f4d;
+    display: flex;
+    align-items: center;
+}
+
+.menu_head {
+    cursor: pointer;
+}
+
+.menu_lista:hover{
+    color: rgb(247, 217, 178);
+    transform: scale(1.20);
+}
+
+.main_container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.form_section{
+    width: 33%;
+    height: auto;
+}
+
+.carrito_section{
+    width: 66%;
+    height: auto;
+}
+
+.main_logo_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+.main_container .form_section,
+.main_container .carrito_section {
+    flex: 1;
+}
+
+.main_container h1 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.carrito_contenedor {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow:  8px 5px rgba(0, 0, 0, 0.1);
+    width: 200px; 
+    height: 230px;
+}
+
+.product_image_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.product_image {
+    max-width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+
+.product_info {
+    padding: 1rem;
+    text-align: center;
+    font-size: 20px;
+}
+
+.product_info p {
+    margin: 0.5rem 0;
+}
+
+.product_price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button_delete {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.button_delete img {
+    width: 40px;
+    height: 40px;
+}
+
+.form_container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+
+.form_container input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+}
+
+.boton_agregar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boton_agregar button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn_agrega {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn_limpia {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.footer_container {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    margin-top: auto;  /* Asegurar que el footer esté al final */
+}
+
+.footer_container .marca h4 {
+    margin: 0;
+}
+
+.footer_container .marca p{
+    margin: 0;
+    font-size: 13px;
+}
+
+.products{
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid #000000;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.product_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.product_image img{
+    width: 50px;
+    height: auto;
+}

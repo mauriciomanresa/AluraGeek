@@ -1,0 +1,40 @@
+{
+  "aderezos": [
+    {
+      "id": "1de10",
+      "name": "Mayonesa",
+      "price": "200",
+      "img": "https://m.media-amazon.com/images/I/61RZe8YJbFL._AC_SX425_.jpg"
+    },
+    {
+      "id": "2de10",
+      "name": "Mostaza",
+      "price": "240",
+      "img": "https://m.media-amazon.com/images/I/81lF4zIpP3L._AC_SX569_.jpg"
+    },
+    {
+      "id": "3de10",
+      "name": "Ketchup",
+      "price": "255",
+      "img": "https://m.media-amazon.com/images/I/61de8922i2L._AC_SX679_.jpg"
+    },
+    {
+      "id": "4de10",
+      "name": "Barbacoa",
+      "price": "268",
+      "img": "https://m.media-amazon.com/images/I/71wH+mJ1L5L._AC_SY741_.jpg"
+    },
+    {
+      "id": "5de10",
+      "name": "Brava",
+      "price": "289",
+      "img": "https://m.media-amazon.com/images/I/61oR8zMHw+L._AC_SX679_.jpg"
+    },
+    {
+      "id": "6de10",
+      "name": "Chilli Hot",
+      "price": "310",
+      "img": "https://m.media-amazon.com/images/I/41QbglzZFWL._AC_.jpg"
+    }    
+  ]
+}

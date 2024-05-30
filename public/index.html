@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Desafío AluraGeek</title>
+</head>
+<body>
+    <header class="header_container">
+        <nav>
+            <img src="./assets/logo.png" alt="logo de Mercado">
+        </nav>
+        <h1>MERCADO COOPERATIVO</h1>
+        <nav>
+            <div class="menu_head">
+                <ul>
+                    <li class="menu_lista">Pagar</li>
+                    <a href="./main.html"><li class="menu_lista">Volver</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="main_container">
+        <section class="form_section">
+            <h1>Agregar producto</h1>
+            <form class="form_container" data_form>
+                <input id="product_name" name="product_name" data_name placeholder="Producto" type="text" required>
+                <input id="product_price" name="product_price" data_price placeholder="Precio" type="text" required>
+                <input id="product_image" name="product_image" data_image placeholder="Imagen URL" type="text">
+                <div class="boton_agregar">
+                    <button type="submit" class="btn_agrega" id="boton">Agregar</button>
+                    <button type="reset" class="btn_limpia" id="boton">Limpiar</button>
+                </div>
+            </form>
+        </section>
+        <section class="carrito_section">
+            <h1>ARMA TU CARRO DE COMPRAS...</h1>
+            <div data_carrito class="carrito_contenedor">
+                <!-- Los productos se agregarán aquí dinámicamente -->
+            </div>
+        </section>
+    </main>
+    <footer class="footer_container">
+        <div class="marca">
+            <h4>MERCADO COOPERATIVO</h4><br>
+            <p>(c) 2024 - Desarrollado por CMM-Design</p>
+        </div>
+    </footer>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
