@@ -10,7 +10,7 @@ body {
 .header_container {
     background-color: #333;
     color: #fff;
-    padding: 1rem;  /* Reducir el padding */
+    padding: 1rem;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -18,17 +18,17 @@ body {
 
 .header_container h1 {
     margin-top: 20px;
-    font-size: 3rem;  /* Ajustar el tamaño del texto */
+    font-size: 3rem;
 }
 
 nav {
     display: flex;
     align-items: center;
-    padding: 0.5rem;  /* Reducir el padding */
+    padding: 0.5rem;
 }
 
 nav img {
-    height: 60px;   /* Ajustar la altura del logo */
+    height: 60px;
 }
 
 .menu_head ul {
@@ -195,7 +195,7 @@ nav img {
     color: #fff;
     padding: 1rem;
     text-align: center;
-    margin-top: auto;  /* Asegurar que el footer esté al final */
+    margin-top: auto;
 }
 
 .footer_container .marca h4 {
@@ -225,4 +225,90 @@ nav img {
 .product_image img{
     width: 50px;
     height: auto;
+}
+
+@media (max-width: 768px) {
+    .header_container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .menu_head ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main_container {
+        flex-direction: column;
+    }
+
+    .form_section,
+    .carrito_section {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .form_container input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .boton_agregar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn_agrega,
+    .btn_limpia {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .header_container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .menu_head ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main_container {
+        flex-direction: column;
+    }
+
+    .form_section,
+    .carrito_section {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .form_container input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .boton_agregar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn_agrega,
+    .btn_limpia {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .footer_container {
+        text-align: center;
+    }
 }
